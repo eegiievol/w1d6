@@ -1,0 +1,55 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#text-area {
+  font-family: monospace;
+  font-size: 12pt;
+  width: 100%;
+}
+
+fieldset {
+  border: 5px solid black;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+legend {
+  text-align: center;
+}
+
+article {
+  /* alignment-adjust: center; */
+}
+
+button {
+  width: 47%;
+}
+
+body {
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ccccff;
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+header {
+  display: inline-block;
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: center;
+  width: 90%;
+}
+
+select {
+  width: 98%;
+}
+
+#validate {
+  right: 0px;
+  position: fixed;
+}
