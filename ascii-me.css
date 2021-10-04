@@ -1,12 +1,14 @@
 .container {
   width: 960px;
   margin: 0 auto;
+
 }
 
 #text-area {
   font-family: monospace;
   font-size: 12pt;
-  width: 100%;
+  width: 90%;
+  height: 400px;
 }
 
 fieldset {
@@ -20,7 +22,7 @@ legend {
 }
 
 article {
-  /* alignment-adjust: center; */
+  text-align: center;
 }
 
 button {
@@ -52,4 +54,10 @@ select {
 #validate {
   right: 0px;
   position: fixed;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+img {
+  max-width: 100px;
 }
